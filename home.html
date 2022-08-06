@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Calculadoras</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="Titulo">Pagina de Pochef Matemático</h1>
+            </div>
+        </div>
+        
+<br>
+
+        <div class="row">
+            <div class="col-6">
+                <h1 class="Ej1">Área de cuadrado</h1>
+                <form class="form-group">
+                    <label class="text-dark">Ingrese el tamaño de un lado:</label>
+                        <input type="number" class="form-control" id="num">
+                    
+                    <button type="button" class="btn btn-danger btn-block mt-3" id="btncuadrado">Ok</button>
+                    <div id="result_cuadrado" class=" alert alert-dark mt-3" role="alert"></div>
+                </form>
+            </div>   
+        
+
+            <div class="col-6">
+                <h1 class="Ej1">Área del rectángulo</h1>
+                <form class="form-group">
+                    <label class="text-dark">Ingrese de la base:</label>
+                        <input type="number" class="form-control" id="base">
+                    <label class="text-dark">Ingrese de la altura:</label>
+                        <input type="number" class="form-control" id="altura">
+
+                    <button type="button" class="btn btn-danger btn-block mt-3" id="btnrec">Ok</button>
+                    <div id="result_rec" class=" alert alert-dark mt-3" role="alert"></div>
+                </form>
+            </div>
+            
+            
+
+
+
+            <div class="col-6">
+                <h1 class="Ej1">Descuento</h1>
+                <form class="form-group">
+                    <label class="text-dark">Ingrese la cantidad de dinero:</label>
+                        <input type="number" class="form-control" id="money">
+                    
+                    <button type="button" class="btn btn-danger btn-block mt-3" id="btnprice">Ok</button>
+                    <div id="result_desc" class=" alert alert-dark mt-3" role="alert"></div>
+                </form>
+            </div>
+            
+
+            <div class="col-6">
+                <h1 class="Ej1">Par / Impar</h1>
+                <form class="form-group">
+                    <label class="text-dark">Ingrese un número</label>
+                        <input type="number" class="form-control" id="numero">
+                    
+                    <button type="button" class="btn btn-danger btn-block mt-3" id="btnparimpar">Ok</button>
+                    <div id="result" class=" alert alert-dark mt-3" role="alert"></div>
+                </form>
+            </div>
+
+
+
+
+            <div class="col-12">
+                <h1 class="Ej1"> Listado descendente</h1>
+                <form class="form-group">
+                    <button type="button" class="btn btn-danger btn-block mt-3" id="btnlistado">Listado</button>
+                    <div id="result" class=" alert alert-dark mt-3" role="alert"></div>
+                </form>
+            </div>
+
+        </div>
+
+
+    
+    </div>
+        
+
+
+
+
+        <script src="operaciones.js"></script>
+  </body>
+</html>
